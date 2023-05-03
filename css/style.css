@@ -500,10 +500,17 @@ a:focus {
 .about .about-img {
     position: relative;
     height: 100%;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: 70px;
     
 }
+
+@media (max-width: 412px) {
+    .about-img {
+        margin-right: 30px;
+    }
+}
+
 .about .about-img img {
     position: relative;
     width: 75%;
@@ -532,8 +539,15 @@ a:focus {
 .skillimg{
     width: 450px;
     height: 450px;
-    
+    margin: auto; 
 }
+
+@media (max-width: 480px) {
+    .skillimg {
+        margin-right: 30px;
+    }
+}
+
 .about .skill-name p {
     display: inline-block;
     margin-bottom: 5px;
